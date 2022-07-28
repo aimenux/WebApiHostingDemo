@@ -7,7 +7,7 @@ using NSubstitute;
 
 namespace Example05.Tests;
 
-public class WebApiTestFixture : WebApplicationFactory<Program>
+internal class WebApiTestFixture : WebApplicationFactory<Program>
 {
     private readonly WeatherInfo _weatherInfo;
 
