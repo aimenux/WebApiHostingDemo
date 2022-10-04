@@ -26,5 +26,3 @@ app.MapGet("/weather/{city}", async (string city, IWeatherService weatherService
 });
 
 app.Run();
-
-//public partial class Program { }
